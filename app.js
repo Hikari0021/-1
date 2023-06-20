@@ -5,11 +5,3 @@ let networkDiagnosis = isCustomerOffline
 ? `The network is ${network} `
         : "The network is not present as this moment";
 console.log(networkDiagnosis);
-
-
-
-
-let name = "John"
-for (let i = 0; i <= name.length; i++){
-    console.log(name.charAt(i));
-}
